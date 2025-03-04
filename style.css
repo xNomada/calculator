@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  height: 100vh;
+}
+
+.calculator{
+  display: flex;
+  background-color: antiquewhite;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 322px;
+}
+
+.display{
+  width: auto;
+  background-color: rgb(170, 165, 165);
+  font-size: 50px;
+  border: 1px solid black;
+}
+.buttons{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  
+}
+
+button{
+  width: 80px;
+  height: 80px;
+  font-size: 40px;
+  border: 1px solid black;
+  flex: 0 1 auto;
+}
+
+#zero{
+  flex: 1 0 auto;
+}
